@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(210, 60%, 98%);
+}
+
+
+@font-face{
+  font-family: "jakarta";
+  src: url("../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
+}
